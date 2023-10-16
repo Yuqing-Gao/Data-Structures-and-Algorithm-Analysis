@@ -1,0 +1,13 @@
+int main(void){
+    int i, n;
+    scanf("%d",&n);
+    if (n > 10)
+        printf("hello world\n");
+    else
+        printf("no\n");
+    for (i = 0; i < 10; ++i){
+        n = i + 1;
+        n += 2;
+    }
+    return 0;
+}
